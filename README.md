@@ -1,9 +1,14 @@
 ># BLCN
-Bar &amp; Line Cardinal-Clockwise Notation
+##Bar &amp; Line Cardinal-Clockwise Notation
 
 ## Symbols
 ---
-
+bNEW  = '╩'	bESW   = '╦'	bNES   = '╠'	bNSW  = '╣'	bNS   = '║'	bEW   = '═'
+bNE   = '╝'	bNW    = '╚'	bSW    = '╗'	bES   = '╔'	bNESW = '╬'	bEWlS = '╤'	
+bNlEW = '╨'	bEWlN  = '╧'	bSlEW  = '╥'	bNlE  = '╙'	bElN  = '╘'	bElS  = '╒'	
+bSlE  = '╓'	bNSlEW = '╫'	bEWlNS = '╪'	bElNS = '╞'	bNSlE = '╟'	bWlNS = '╡'	
+lNW   = '┘'	lWS    = '┐'	lNESW  = '┼'	lSW   = '┐'	lNE   = '└'	lNEW  = '┴'	
+lES   = '┌'	lESW   = '┬'	lNES   = '├'	lEW   = '─'	lNS   = '│'	lNSE  = '┤'
 ---
  ## Introduction
  
@@ -99,3 +104,10 @@ The [b]ar goes [N]orth [E]ast [S]outh [W]est, so the symbol is >> bNESW
     b[¬N][¬E][¬S][¬W] = l[N][E][S][W]
       
       BLCN is lNESW
+ 
+ ## Application
+ 
+ Python use of BLCN to easily create Symbol based console art or structure.
+ 
+ see PyBLCN
+ 
