@@ -1,34 +1,76 @@
-># BLCN
-##Bar &amp; Line Cardinal-Clockwise Notation
+# BLCN - Bar &amp; Line Cardinal-Clockwise Notation
+by Donald J. Guiles
 
-## Symbols
+May 2 2022
+
 ---
-bNEW  = '╩'	bESW   = '╦'	bNES   = '╠'	bNSW  = '╣'	bNS   = '║'	bEW   = '═'
-bNE   = '╝'	bNW    = '╚'	bSW    = '╗'	bES   = '╔'	bNESW = '╬'	bEWlS = '╤'	
-bNlEW = '╨'	bEWlN  = '╧'	bSlEW  = '╥'	bNlE  = '╙'	bElN  = '╘'	bElS  = '╒'	
-bSlE  = '╓'	bNSlEW = '╫'	bEWlNS = '╪'	bElNS = '╞'	bNSlE = '╟'	bWlNS = '╡'	
-lNW   = '┘'	lWS    = '┐'	lNESW  = '┼'	lSW   = '┐'	lNE   = '└'	lNEW  = '┴'	
-lES   = '┌'	lESW   = '┬'	lNES   = '├'	lEW   = '─'	lNS   = '│'	lNSE  = '┤'
----
- ## Introduction
+## Preface 
+
+Symbol Reference 
+
+		bNEW  = '╩'	bESW   = '╦'	bNES   = '╠'	bNSW  = '╣'	bNS   = '║'	bEW   = '═'
+
+		bNE   = '╝'	bNW    = '╚'	bSW    = '╗'	bES   = '╔'	bNESW = '╬'	bEWlS = '╤'
+
+		bNlEW = '╨'	bEWlN  = '╧'	bSlEW  = '╥'	bNlE  = '╙'	bElN  = '╘'	bElS  = '╒'	
+
+		bSlE  = '╓'	bNSlEW = '╫'	bEWlNS = '╪'	bElNS = '╞'	bNSlE = '╟'	bWlNS = '╡'	
+
+		lNW   = '┘'	lWS    = '┐'	lNESW  = '┼'	lSW   = '┐'	lNE   = '└'	lNEW  = '┴'	
+
+		lES   = '┌'	lESW   = '┬'	lNES   = '├'	lEW   = '─'	lNS   = '│'	lNSE  = '┤'
+
+
+ ## 1. Introduction - How to write and read shorthand notation
  
  	
    Bar and Line Cardinal Clockwise Notation attempts to simplify the symbol and character
 map for the lined and Double-lined Charcters by using the Clockwise Cardinal Naming Algorithm.
+Clockwise Cardinal Naming Algorithm is self-explanatory. However, i will attempt to explain it 
+in the simpliest way possible. Starting with the name. 
 	
-Starting at the center of this plus Symbol, first notice if it uses any double bars, it does not.
-	Second check to see if it uses lines. It does. write the letter 'l'. Which directions from the center
-	do the lines travel? Starting at north and moving clockwise we get North East South West.
-	Therefore, this symbols notation is lNESW, shorthand for line from center North East South West.
+	Clockwise - The flow of direction that lines in relation to symbols are described from the center.
+	
+	Cardinal  - Cardinal directions are used to help notate the direction (from center, then from north) 
+			the line or bar is travelling.
+	
+	Naming    - Assigning variables to those equations
+	
+	Algorithm - How it is achieved from beginning to end
+	
+So Starting from the top... The flow of bars then lines in a symbol from the center, in North East South West clockwise notation.
+
+---
+
+Here are some Examples
+If the variable is 
+	
+	bEWlNS
+
+then the symbol looks like this...
+
+
+	╪ 
+
+What does bEWlNS stand for? 
+
+	b 	E	W	l	N	S
+	bar	East	West 	line	North	South
+
+That is the physical description and variable name for the symbol ╪
+
+Not only is BLCN flow indicative, but it makes reverse-engineering a symbol easy, without looking at a character map.
+	
+
 	
 What about complex symbols like '╫'?
 
-	Double bar travels North South line travels East West
+	"bar travels North South line travels East West"
 		
-			BLCN = bNSlEW
+			bNSlEW
 			
 ---
-## Variables
+## 2. Variables
 [b] lowercase bravo
 b = bar
 
@@ -44,7 +86,7 @@ l = line or | or -- or 'single line':
 	[l] is the symbol varaible for a line with one line in place of one  '-' not '═'
 
 ---
- ## Equation
+ ## 3. Equation
 
 If a symbol has any double bars or bars any bars the variable starts with b:
 
@@ -87,7 +129,7 @@ The [b]ar goes [N]orth [E]ast [S]outh [W]est, so the symbol is >> bNESW
        			if [ lNy = 1 ] then [ bNy = 0 ];
 
 ------------------------------------------------------------------------------
->## Examples:
+>## 4. Examples:
 
 	  b[¬N][E][S][W] = l[N][¬E][¬S][¬W]
 	    
