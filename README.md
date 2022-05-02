@@ -43,6 +43,8 @@ So Starting from the top... The flow of bars then lines in a symbol from the cen
 ---
 
 Here are some Examples
+
+
 If the variable is 
 	
 	bEWlNS
